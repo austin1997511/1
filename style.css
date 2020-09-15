@@ -55,9 +55,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-md{
 	padding:50px;
 }
-.bloc-sm{
-	padding:20px 50px;
-}
 
 /* = Full Width Blocs 
 -------------------------------------------------------------- */
@@ -77,57 +74,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .full-width-bloc .carousel img{
 	width:100%;
 	height:auto;
-}
-
-
-/* Dark theme */
-
-.d-bloc{
-	color:rgba(255,255,255,.7);
-}
-.d-bloc button:hover{
-	color:rgba(255,255,255,.9);
-}
-.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
-	border-color:rgba(255,255,255,.9);
-}
-.d-bloc .divider-h span{
-	border-color:rgba(255,255,255,.2);
-}
-.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
-	color:rgba(255,255,255,.6);
-}
-.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
-	color:rgba(255,255,255,1);
-}
-.d-bloc .navbar-toggle .icon-bar{
-	background:rgba(255,255,255,1);
-}
-.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
-	color:rgba(255,255,255,1);
-	border-color:rgba(255,255,255,1);
-}
-.d-bloc .card{
-	color:rgba(0,0,0,.5);
-}
-.d-bloc .card button:hover{
-	color:rgba(0,0,0,.7);
-}
-.d-bloc .card icon{
-	border-color:rgba(0,0,0,.7);
-}
-.d-bloc .card .divider-h span{
-	border-color:rgba(0,0,0,.1);
-}
-.d-bloc .card .a-btn{
-	color:rgba(0,0,0,.6);
-}
-.d-bloc .card .a-btn:hover{
-	color:rgba(0,0,0,1);
-}
-.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
-	color:rgba(0,0,0,.7);
-	border-color:rgba(0,0,0,.3);
 }
 
 
@@ -320,6 +266,11 @@ button{
 	opacity: 1;
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -404,18 +355,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .row-28-margin-top{
 	margin-top:50px;
 }
-.h2-style{
-	font-family:Lato;
-	font-weight:900;
-	margin-top:0px;
-}
 .p-margin-bottom{
 	margin-bottom:13px;
 	font-family:Ubuntu;
 	font-weight:900;
+	letter-spacing:1px;
 }
 .img-margin-top{
-	margin-top:199px;
+	margin-top:1px;
 }
 .h4-style{
 	font-family:Lato;
@@ -426,16 +373,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h5-margin-bottom{
 	margin-bottom:13px;
+	letter-spacing:1px;
 }
 .row-bloc--音樂會-炫音星夜-margin-top{
-	margin-top:121px;
-}
-.h3-style{
-	font-family:Lato;
-	font-weight:900;
-}
-.h5-bloc--音樂會-炫音星夜-margin-bottom{
-	margin-bottom:13px;
+	margin-top:0px;
 }
 .img-bloc--音樂會-炫音星夜-margin-top{
 	margin-top:1px;
@@ -445,7 +386,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:0px;
 }
 .row-bloc-音樂會-浪漫山林-margin-top{
-	margin-top:-144px;
+	margin-top:-1px;
 }
 .container-div-margin-top{
 	margin-top:75px;
@@ -460,7 +401,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:200px;
 }
 .bloc-26443-margin-top{
-	margin-top:26px;
+	margin-top:-2px;
 }
 .row-bloc-1-margin-top{
 	margin-top:10px;
@@ -564,8 +505,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:4px;
 }
 .h6-style{
-	font-size:18px;
+	font-size:16px;
 	margin-top:0px;
+	letter-spacing:1px;
 }
 .p-style{
 	width:100%;
@@ -580,8 +522,42 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-style{
 	border-radius:0px 0px 0px 0px;
 }
-.img-margin-bottom{
-	margin-bottom:80px;
+.text-span-color{
+	color:#8e8e8e;
+}
+.h6-bloc-音樂會-浪漫山林-style{
+	letter-spacing:5px;
+}
+.h5-bloc-音樂會-炫音星夜-style{
+	letter-spacing:5px;
+}
+.h3-margin-top{
+	margin-top:120px;
+}
+.h3-炫音星夜演唱會-margin-top{
+	margin-top:120px;
+}
+.h6-bloc-星夜野餐日-style{
+	font-size:16px;
+	letter-spacing:1px;
+}
+.divider-bloc-星夜野餐日-margin-top{
+	margin-top:-21px;
+}
+.h6-bloc-河岸電影院-style{
+	letter-spacing:1px;
+}
+.h6-bloc-秘境營火夜-style{
+	letter-spacing:1px;
+}
+.divider-bloc-秘境營火夜-margin-top{
+	margin-top:-21px;
+}
+.divider-bloc-河岸電影院-margin-top{
+	margin-top:-21px;
+}
+.h3-style{
+	opacity:0.6;
 }
 
 /* = Colour
@@ -591,9 +567,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-lapis-lazuli{
 	background-color:rgba(30,99,134,0.88);
-}
-.bgc-lapis-lazuli-2{
-	background-color:rgba(30,99,134,0.71);
 }
 
 /* Text colour styles */
@@ -605,7 +578,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#FFFFFF!important;
 }
 .tc-gray-htmlcss-gray{
-	color:rgba(123,123,123,0.62)!important;
+	color:#7B7B7B!important;
 }
 
 /* Button colour styles */
@@ -616,6 +589,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-lapis-lazuli:hover{
 	background:#184f6b!important;
+	color:#FFFFFF!important;
+}
+.btn-gray-htmlcss-gray{
+	background:rgba(123,123,123,0.62);
+	color:#FFFFFF!important;
+}
+.btn-gray-htmlcss-gray:hover{
+	background:#626262!important;
 	color:#FFFFFF!important;
 }
 
@@ -736,9 +717,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.bloc-bloc-navbar-margin-top{
 		margin-top:14px;
 	}
-	.h2-style{
-		margin-top:23px;
-	}
 	.card-margin-top{
 		margin-top:28px;
 	}
@@ -750,9 +728,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-bloc-潮青卡司-margin-top{
 		margin-top:14px;
-	}
-	.h3-style{
-		margin-top:34px;
 	}
 	.bloc-bloc--炫音卡司-margin-top{
 		margin-top:16px;
