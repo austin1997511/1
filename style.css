@@ -198,10 +198,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .mg-clear{
 	margin:0;
 }
-.mg-sm{
-	margin-top:10px;
-	margin-bottom:5px;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -239,22 +235,6 @@ button{
 }
 .icon-md{
 	font-size:30px!important;
-}
-.icon-round{
-	margin:0 auto;
-	border:2px solid transparent;
-	border-radius: 50%;
-	padding: 32px 30px 26px 30px;
-	min-width:80px;
-}
-.icon-round.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
-	min-width: 92px;
-}
-.icon-round.icon-lg,.icon-square.icon-lg,.icon-rounded.icon-lg{
-	min-width: 122px;
-}
-.icon-round.icon-xl,.icon-square.icon-xl,.icon-rounded.icon-xl{
-	min-width: 162px;
 }
 
 
@@ -317,11 +297,6 @@ button{
 	opacity: 1;
 }
 
-/* Hide Object */
-.object-hidden{
-	display:none;
-}
-
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -365,9 +340,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .team-card{
 	min-height:350px;
-}
-.h3-margin-bottom{
-	margin-bottom:9px;
 }
 .h5-青鳥合唱團-style{
 	width:100%;
@@ -571,6 +543,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:13px;
 }
 .img-style{
+	width:50px;
+	height:50px;
 	border-radius:0px 0px 0px 0px;
 }
 .text-span-color{
@@ -610,6 +584,30 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h3-style{
 	opacity:0.6;
 }
+.h5-秋月峨眉｜秘境營火夜-margin-top{
+	margin-top:50px;
+}
+.icon-margin-top{
+	margin-top:4px;
+}
+.p-bloc-交通-音樂會-style{
+	line-height:20px;
+	margin-top:10px;
+	width:100%;
+}
+.p-margin-top{
+	margin-top:10px;
+}
+.img-自駕-icon-100-style{
+	width:50px;
+	height:50px;
+}
+.row-bloc-交通-音樂會-margin-top{
+	margin-top:22px;
+}
+.bloc-bloc-交通-音樂會-margin-top{
+	margin-top:-104px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -625,11 +623,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-lapis-lazuli{
 	color:rgba(30,99,134,0.88)!important;
 }
-.tc-white{
-	color:#FFFFFF!important;
-}
 .tc-gray-htmlcss-gray{
 	color:#7B7B7B!important;
+}
+.tc-white{
+	color:#FFFFFF!important;
 }
 
 /* Button colour styles */
@@ -746,6 +744,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h5-style{
 		font-family:Montserrat;
 	}
+	.bloc-bloc-夜間活動-margin-top{
+		margin-top:39px;
+	}
+	.h2-margin-top{
+		margin-top:30px;
+	}
+	.h2-秋戀合興｜星夜野餐日-margin-top{
+		margin-top:31px;
+	}
+	.h2-秋藝關西｜河岸電影院-margin-top{
+		margin-top:29px;
+	}
+	.h2-秋月峨眉｜秘境營火夜-margin-top{
+		margin-top:27px;
+	}
 	
 }
 
@@ -808,6 +821,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h4-協辦單位-margin-top{
 		margin-top:32px;
+	}
+	.h6-bloc-音樂會-浪漫山林-style{
+		font-size:15px;
+		letter-spacing:3px;
+		opacity:0.3;
+	}
+	.p-margin-bottom{
+		margin-top:24px;
 	}
 	
 }
