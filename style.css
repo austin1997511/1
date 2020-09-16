@@ -219,14 +219,6 @@ button{
 .btn-rd{
 	border-radius: 40px;
 }
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
-}
-.text-center .a-block{
-	text-align:center;
-}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -295,6 +287,11 @@ button{
 .showScrollTop{
 	font-size: 14px;
 	opacity: 1;
+}
+
+/* Hide Object */
+.object-hidden{
+	display:none;
 }
 
 /* = Custom Styling
@@ -481,6 +478,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-交通資訊-style{
 	font-weight:bold;
+	margin-right:21px;
 }
 .link-秋月峨眉｜秘境營火夜-style{
 	font-weight:bold;
@@ -608,6 +606,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-bloc-交通-音樂會-margin-top{
 	margin-top:-104px;
 }
+.img-bloc-navbar-style{
+	width:20px;
+	height:20px;
+	margin-top:3px;
+}
+.img-3-style{
+	height:27px;
+	width:27px;
+}
+.img-icons8-line-1-style{
+	width:31px;
+}
+.bloc-margin-top{
+	margin-top:6px;
+}
+.bloc-bloc-navbar-margin-top{
+	margin-top:5px;
+}
+.img-資產-1-2x-100-margin-top{
+	margin-top:28px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -658,10 +677,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Icon colour styles */
 
-.icon-white{
-	color:#FFFFFF!important;
-	border-color:#FFFFFF!important;
-}
 .icon-lapis-lazuli{
 	color:rgba(30,99,134,0.88)!important;
 	border-color:rgba(30,99,134,0.88)!important;
